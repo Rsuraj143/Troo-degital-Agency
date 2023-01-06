@@ -8,7 +8,7 @@ const Comparison = () => {
     <div>
       <div className="compare_BG">
         <div className="compare_container">
-          <div className="container_left" data-aos="fade-right">
+          <div className="container_left" >
             <div className="compare_sub_heading">
                 How We Different to Others
             </div>
@@ -21,7 +21,7 @@ const Comparison = () => {
             <img src={ComparisonImg} alt="comparisonIMg" style={{width:"100%"}} />
           </div>
 
-          <div className="container_right" data-aos="fade-left">
+          <div className="container_right" >
             <Accordion defaultActiveKey="0">
               <Accordion.Item className="accordion-item" eventKey="0">
                 <Accordion.Header>

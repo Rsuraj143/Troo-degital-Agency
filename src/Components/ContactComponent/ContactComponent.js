@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import aboutellips from "../../Images/AboutEllipse.png";
 import phone from "../../Images/phone.png";
 import email from "../../Images/email.png";
 import location from "../../Images/location.png";
@@ -17,7 +16,7 @@ const ContactComponent = () => {
     <div>
       <div className="contact_section">
         <div className="contact_container">
-          <div className="contact_left">
+          <div className="contact_left" >
             <div className="compare_sub_heading">Let's Work Together</div>
             <h3 className="comnpare_heading">Need a successful project?</h3>
             <p className="compare_para">
@@ -57,7 +56,7 @@ const ContactComponent = () => {
               </div>
             </div>
           </div>
-          <div className="contact_right">
+          <div className="contact_right" >
             <Box
               component="form"
               sx={{

@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import "./Blogs.css";
-import aboutellips from "../../Images/AboutEllipse.png";
 import rightArrow from "../../Images/arrow-narrow-right.png";
 import leftArrow from "../../Images/arrow-narrow-left.png";
 import blog_1 from "../../Images/blog_1.png";

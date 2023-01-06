@@ -23,7 +23,7 @@ const PricingCard = () => {
 
           <div className="pricing_card_contain" >
             <div className="row row-cols-1 row-cols-md-2 g-4">
-            <div className="col">
+            <div className="col main_pricingcard">
                 <div className="pricingcard">
                   <h5 className="pricing_card_title">Starter Plan</h5>
                   <div className="pricing_card_body">
@@ -69,7 +69,7 @@ const PricingCard = () => {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col main_pricingcard">
                 <div className="pricingcard">
                   <h5 className="pricing_card_title">Basic Plan</h5>
                   <div className="pricing_card_body">
@@ -115,7 +115,7 @@ const PricingCard = () => {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col main_pricingcard">
                 <div className="pricingcard">
                   <h5 className="pricing_card_title">Standaed Plan</h5>
                   <div className="pricing_card_body">
@@ -161,7 +161,7 @@ const PricingCard = () => {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col main_pricingcard">
                 <div className="pricingcard">
                   <h5 className="pricing_card_title">Professional Plan</h5>
                   <div className="pricing_card_body">

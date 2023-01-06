@@ -75,7 +75,7 @@
 .button:hover{
     background-color: black;
     transition: 0.8s ease-in-out;
-    box-shadow: 1px 1px 25px 10px  #FA5D3280;
+    box-shadow: 1px 1px 25px 10px  #FA5D3240;
 }
 .btn_text{
     font-family: 'Poppins';

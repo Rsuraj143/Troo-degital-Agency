@@ -72,10 +72,11 @@
     margin: 0 auto;
     width: 100px;
 }
+
 .card {
     --bs-card-spacer-y: 2rem;
     --bs-card-spacer-x: 2rem;
-    --bs-card-title-spacer-y: 2.5rem;
+    --bs-card-title-spacer-y: 1rem;
     --bs-card-border-width: 0px;
     --bs-card-border-color: var(--bs-border-color-translucent);
     --bs-card-border-radius: -0.625rem;
@@ -101,24 +102,71 @@
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
 }
+.card:before{
+    content:"";
+    background:#FA5D32;
+    width:0;
+    height:2px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.card:after{
+    content:"";
+    background:#FA5D32;
+    width:0;
+    height:2px;
+    position:absolute;
+    top:0;
+    right:0;
+    left: 0;
+}
+.maincard:hover .card:after,
+.maincard:hover .card:before{
+    width:100%;
+    transition: all 0.9s ease-in-out;
+}
 .card:hover{
     background-color: #fde8e7e1;
     transition: .8s;
-    border-top: 2px solid #FA5D32;
+    
 }
-.card-title {
-    margin-bottom: var(--bs-card-title-spacer-y);
+.servicecard_title:before{
+    content:"";
+    background:#FA5D32;
+    width:0;
+    height:2px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+}
+.servicecard_title:after{
+    content:"";
+    background:#FA5D32;
+    width:0;
+    height:2px;
+    position:absolute;
+    bottom:0;
+    right:50%;
+}
+.card:hover .servicecard_title:after,
+.card:hover .servicecard_title:before{
+    width:20%;
+    transition: all 0.8s ease-in-out;
+}
+
+.servicecard_title {
+    padding-bottom: var(--bs-card-title-spacer-y);
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 30px;
     text-align: center;
     color: #161616;
+    position: relative;
 }
 .card_paragraph {
-    margin-top: 25px;
-    margin-bottom: 1rem;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -146,9 +194,9 @@
 }
 
 @media only screen and (max-width: 1080px){
-    .card-title {
+    .servicecard_title {
         font-size: 20px;
-        line-height: 22px;
+        
     }
     .card_paragraph {
         margin-top: 15px;

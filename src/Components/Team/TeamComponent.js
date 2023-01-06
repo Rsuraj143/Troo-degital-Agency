@@ -29,7 +29,7 @@ const TeamComponent = () => {
           <div className="service_heading">Creative Team</div>
         </div>
         <div class="team_grid_container">
-          <div class="person">
+          <div class="person" >
             <img src={team1} alt="team1" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>

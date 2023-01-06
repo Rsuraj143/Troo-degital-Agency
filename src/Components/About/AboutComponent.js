@@ -15,7 +15,7 @@ const AboutComponent = () => {
     <div className={datanew}>
       <div className="AboutImg">
         <div className="aboutContainer">
-          <div className="about_left_container" data-aos="fade-right">
+          <div className="about_left_container" data-aos="fade-right" >
             <div className="about_sub_heading">
                 Helping Businesses Since 1987
             </div>
@@ -58,7 +58,7 @@ const AboutComponent = () => {
               </Link>
             </div>
           </div>
-          <div className="about_right_container" data-aos="fade-left">
+          <div className="about_right_container" data-aos="fade-left" >
             <img src={AboutImg} alt="aboutimg" className="aboutImg" />
           </div>
         </div>

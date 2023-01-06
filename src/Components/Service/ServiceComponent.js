@@ -25,11 +25,10 @@ const ServiceComponent = () => {
           </div>
 
           <div class="row row-cols-1 row-cols-md-3 g-3 ">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">Digital Marketing</h5>
-                  <div className="heding_line"></div>
+                  <h3 class="servicecard_title">Digital Marketing</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.
@@ -43,11 +42,11 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">Product Development</h5>
-                  <div className="heding_line"></div>
+                  
+                  <h3 class="servicecard_title">Product Development</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.
@@ -61,11 +60,11 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class=" maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">SEO Services</h5>
-                  <div className="heding_line"></div>
+    
+                  <h3 class="servicecard_title">SEO Services</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.
@@ -79,11 +78,11 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">Cloud Hosting</h5>
-                  <div className="heding_line"></div>
+                  
+                  <h3 class="servicecard_title">Cloud Hosting</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.
@@ -97,11 +96,11 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">Content Management</h5>
-                  <div className="heding_line"></div>
+                  
+                  <h3 class="servicecard_title">Content Management</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.
@@ -115,11 +114,11 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <div class="maincard">
                 <div class="card-body card">
-                  <h5 class="card-title text-center">Digital Marketing</h5>
-                  <div className="heding_line"></div>
+                 
+                  <h3 class="servicecard_title">Digital Marketing</h3>
                   <p class="card-text card_paragraph">
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered.

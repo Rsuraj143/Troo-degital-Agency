@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import "./ClientFeedback.css";
 import { useLocation } from "react-router-dom";
-import aboutellips from "../../Images/AboutEllipse.png";
+
 import FeedbackImg_1 from "../../Images/FeedbackImg_1.png";
 import FeedbackImg_2 from "../../Images/FeedbackImg_2.png";
 import FeedbackImg_3 from "../../Images/FeedbackImg_3.png";
@@ -53,117 +53,129 @@ const ClientFeedback = () => {
         </div>
         <div className="client_carousel">
           <div className="client_container" ref={boxRef}>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_1} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_1} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_2} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_2} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_3} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_3} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_1} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_1} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_1} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_1} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="client_carosael_card">
-              <div className="feedback_header">
-                <img src={rating} alt="rating" />
-                <img src={feedback_design} alt="feedback design icon" />
-              </div>
-              <p className="client_carousael_body">
-                There are many variations of passages of Lorem Ipsum and
-                available, and it but the majority many have suffered alteration
-                in some it is and form, by injected humor, or randomized words
-                which.
-              </p>
-              <div className="info_feedback">
-                <img src={FeedbackImg_1} alt="smile1" />
-                <div className="feedback_title">
-                  <h4 className="person_name">Randy Heart</h4>
-                  <h6 className="person_desig">CEO & Founder</h6>
+            <div className="client_carosael_card_main">
+              <div className="client_carosael_card">
+                <div className="feedback_header">
+                  <img src={rating} alt="rating" />
+                  <img src={feedback_design} alt="feedback design icon" />
+                </div>
+                <p className="client_carousael_body">
+                  There are many variations of passages of Lorem Ipsum and
+                  available, and it but the majority many have suffered
+                  alteration in some it is and form, by injected humor, or
+                  randomized words which.
+                </p>
+                <div className="info_feedback">
+                  <img src={FeedbackImg_1} alt="smile1" />
+                  <div className="feedback_title">
+                    <h4 className="person_name">Randy Heart</h4>
+                    <h6 className="person_desig">CEO & Founder</h6>
+                  </div>
                 </div>
               </div>
             </div>
