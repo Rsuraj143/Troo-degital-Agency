@@ -1,0 +1,116 @@
+
+.team_container{
+    max-width:1300px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+.team_grid_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
+    grid-auto-rows: 30px;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+  }
+  
+.person {
+    height: 100%;
+    width: 100%;
+    grid-column: auto / span 1;
+    grid-row: span 8;
+  }
+  
+  .team_grid_container  .personIMG {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .team_card{
+    width: 75%;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    top: -130px;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+   
+  }
+  .person .team_card{
+    opacity: 0;
+  }
+  .person:hover .team_card{
+    opacity: 1;
+    transition: 1s ease-out;
+  }
+  .person_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+  }
+  .person_desig{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #777777;
+  }
+  .team_social:hover{
+    background-color: #FA5D32;
+    border-radius: 50%;
+    transition: 0.8s ;
+    cursor: pointer;
+  }
+  img.team_social {
+    padding: 1px;
+}
+@media only screen and (max-width: 980px){
+  .service_heading {
+    font-size: 30px;
+    line-height: 40px;
+}
+}
+@media only screen and (max-width: 767px){
+  .person {
+    height: 100%;
+    max-width: 100%;
+    grid-column: auto / span 1;
+    grid-row: span 9;
+    text-align: center;
+  }
+  .team_grid_container .personIMG {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+}
+@media only screen and (max-width: 375px){
+  .team_container {
+    padding: 10px 10px;
+}
+.service_sub_heading {
+  font-size: 14px;
+  line-height: 24px;
+}
+.service_heading {
+  font-size: 25px;
+  line-height: 30px;
+}
+.person {
+  height: 100%;
+  max-width: 100%;
+  grid-column: auto / span 1;
+  grid-row: span 9;
+  text-align: center;
+}
+
+}

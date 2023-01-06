@@ -1,0 +1,194 @@
+
+.contact_section{
+    position: relative;
+    z-index: 1;
+}
+.contact_section:before{
+    content: '';
+    background-image: url(../../Images/contactBG.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0; 
+}
+.contact_section:after{
+    content: '';
+    background-color: black;
+    height:100%;
+    opacity: 0.1;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+.contact_container{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 70px 15px;
+    gap: 90px;
+    height: 100%;
+}
+.contact_details_container{
+    
+}
+.contact_details_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+.conact_details_sub{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    
+}
+.contact_details_contant{
+    display: flex;
+    column-gap: 15px;
+}
+.contact_icons{
+    width: 50px;
+    height: 50px;
+}
+.formBox{
+    background-color: white;
+   padding: 40px 30px;
+}
+.form_inputs{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}
+.contact_right{
+    width: 100%;
+}
+.select_text{
+    margin-left: 16px;
+    margin-top: 10px;
+    width: 25ch;
+}
+.select_text_option{
+    padding-top: 20px;
+}
+
+.form_btn{
+    padding: 15px;
+}
+
+.label{
+    margin-left: 14px;
+    margin-top: 10px;
+    width: 25ch;
+    color: #000000 !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.select_lebel{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    color: #161616 !important;
+}
+.contact_text_field{
+    display: flex;
+}
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: top;
+    font-style: italic;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #161616;
+    opacity: 0.5;
+    padding: 0px 0 5px;
+}
+.contact_form_text {
+    margin: 16px;
+}
+@media only screen and (max-width: 1080px){
+    .contact_container {
+        display: block;
+    }
+    .contact_left{
+        margin-bottom: 50px;
+    }
+    .formBox {
+        background-color: white;
+        padding: 50px;
+    }
+}
+.contact_section:before {
+    display: none;
+}
+@media only screen and (max-width: 767px){
+    .formBox {
+        background-color: white;
+        padding: 10px;
+    }
+    .contact_text_field{
+        display: unset;
+    }
+}
+@media only screen and (max-width: 375px){
+    .contact_container {
+        padding: 10px 10px;
+    }
+    .contact_section:before {
+        display: none;
+    }
+    .compare_sub_heading {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .comnpare_heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .compare_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact_details_heading {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .conact_details_sub {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .formBox {
+        padding: 2px;
+    }
+}

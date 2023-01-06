@@ -1,0 +1,200 @@
+.blogSection{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 65px 15px;
+}
+.blog_sub_heading::before{
+  content: "";
+    width: 35px;
+    height: 35px;
+    background: #FA5D32;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -11;
+}
+.blog_sub_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    color: #161616;
+    position: relative;
+    z-index: 999;
+    padding-left: 18px;
+    margin-bottom: 10px;
+
+}
+.blog_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #161616;
+    margin-bottom: 0px;
+}
+.arrowGroup{
+    display: flex;
+    align-items: end;
+}
+.arrows:hover{
+  background-color: #FA5D32;
+  transition: .3s ease-in-out;
+}
+.mycard {
+  min-width: 400px;
+  max-width: 400px;
+ position: relative;
+  margin: 10px;
+  color: white;
+}
+.mycard:hover{
+  box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.05);
+  transition: .3s ease-in;
+}
+.product-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-container {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.next-btn {
+  right: 0;
+}
+.next-btn p,
+.pre-btn p {
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.436);
+  box-shadow: 0px 0px 10px 1px black;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.blog_img{
+  max-width: 100%;
+  z-index: -1;
+  position: relative;
+}
+.blog_block {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  padding: 20px 15px;
+  background-color: white;
+}
+.blog_block_heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #161616;
+}
+.blog_block_text{
+  display: flex;
+  justify-content: normal;
+  margin-top: 22px;
+}
+.blog_text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100px;
+  color: #777777;
+}
+.blog_text_name{
+  border-left: 2px solid rgb(240, 234, 234);
+  padding-left: 25px;
+}
+
+.block_circle {
+  position: absolute;
+  bottom: 85px;
+  right: -23px;
+}
+.block_circle img {
+  opacity: 0;
+}
+.mycard:hover .block_circle img{
+  opacity: 1;
+  transition: 1s ease-in;
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1080px){
+  .mycard {
+    min-width: 500px;
+    max-width: 500px;
+    margin: 15px;
+  }
+  .blog_img {
+    width: 100%;
+  }
+  .blog_block {
+    top: 391px;
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px){
+  .mycard {
+    min-width: 450px;
+    max-width: 450px;
+    margin: 12px;
+}
+
+}
+@media only screen and (max-width: 767px){
+  .mycard {
+    min-width: 422px;
+    max-width: 450px;
+    margin: 18px;
+}
+
+}
+@media only screen and (max-width: 375px){
+  .blogSection {
+    padding: 10px 10px;
+  }
+  .blog_heading {
+    font-size: 28px;
+    line-height: 35px
+  }
+  .mycard {
+    min-width: 345px;
+    max-width: 325;
+    margin: 5px;
+  }
+  .blog_block_heading {
+    font-size: 17px;
+    line-height: 23px;
+  }
+ 
+}

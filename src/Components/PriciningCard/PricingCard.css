@@ -1,0 +1,428 @@
+
+.pricing_card_section{
+
+width: 100%;
+}
+
+.pricing_card{
+    
+    position: relative;
+    z-index: 1;
+}
+.pricing_card:before{
+    content: '';
+    background-image: url(../../Images/pricingcardBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+   height: 1000px;
+    position: absolute;
+    top: 0;
+}
+.pricing_card:after{
+    content: '';
+    background-color: rgb(247, 242, 242);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.pricing_banner_container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0 200px 0;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: 0; 
+    margin-left: 0
+}
+.pricing_sub_heading::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: #FA5D32;
+    opacity: 0.5;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -11;
+}
+.pricing_sub_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #161616;
+    position: relative;
+    z-index: 999;
+    padding-left: 16px;
+    width: fit-content;
+    margin: 0 auto ;
+}
+.pricing_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #161616;
+}
+.pricing_card_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #161616;
+    padding: 15px 0;
+}
+.pricing_card_body{
+    display: flex;
+}
+.dollar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #161616;
+
+}
+.per_month{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+.offer{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+}
+.pricingcard_right{
+    border-left: 2px solid #b3a9a9 ;
+}
+.pricing_card_texts{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    padding: 5px;
+}
+.pricingCard_button{
+    padding: 10px 15px;
+    background-color: #161616;
+    border: none;
+}
+.pricingcard_btn_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.pricingcard {
+    --bs-card-spacer-y: 2rem;
+    --bs-card-spacer-x: 2rem;
+    --bs-card-title-spacer-y: 2.5rem;
+    --bs-card-border-width: 0px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: -0.625rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+.pricingCard_button:hover{
+    background-color: #FA5D32;
+    transition: .8s ease-in-out;
+}
+.pricingcard:hover .pricing_card_title{
+    background-color: #FA5D32;
+    transition: .8s ease-in-out;
+}
+.pricingcard:hover{
+    border-bottom: 2px solid #FA5D32;
+    transition: .8s ease-in-out;
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.g-4, .gx-4 {
+    --bs-gutter-x: 1.5rem;
+}
+.pricing_banner_section_image{
+    background-image: url(../../Images/pricingbanner.png);
+    width: 95%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin:-170px auto 0;
+    
+}
+.pricing_card_contain{
+    padding: 30px 0;
+}
+.card_price_section{
+    padding: 20px 20px;
+}
+.pricing_banner_section_image:after{
+    content: '';
+    background-color: #000;
+    opacity: 0.6;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    
+}
+.pricing_banner_container_image{
+    max-width: 1300px;
+    margin: 0 auto; 
+    padding: 80px 0;
+}
+.pricing_banner_header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pricing_banner_para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.pricingCard_banner_button{
+    padding: 10px 15px;
+    background-color: #FA5D32;
+    border: none;
+    text-align: center;
+}
+.btn_arrow{
+    width: 20%;
+}
+
+@media only screen and (min-width: 1061px) and (max-width: 1275px){
+    .pricing_card_title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .dollar {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .pricingCard_button {
+        padding: 6px 6px;
+    }
+    .pricingcard_btn_text {
+        font-size: 13px;
+        line-height: 20px; 
+    }
+    .pricing_card_texts {
+        font-size: 12px;
+        line-height: 25px;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 956px) and (max-width: 1060px){
+    .pricing_card_title {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .dollar {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .pricingCard_button {
+        padding: 6px 6px;
+    }
+    .pricing_card_texts {
+        font-size: 10px;
+        line-height: 22px;
+        padding: 5px;
+    }
+    .card_price_section {
+        padding: 10px 10px;
+    }
+}
+@media only screen  and (min-width: 768px) and (max-width: 955px){
+    .pricing_card_title {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .dollar {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .per_month {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .pricingCard_button {
+        padding: 3px 3px;
+    } 
+    .pricingcard_btn_text {
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .mx-3 {
+        margin-right: 0.5rem !important;
+        margin-left: 0.5rem !important;
+    }
+    .pricing_card_texts {
+        font-size: 10px;
+        line-height: 21px;
+        padding: 2px;
+    }
+    .card_price_section {
+        padding: 10px 10px;
+    }
+}
+@media only screen  and (min-width: 541px) and (max-width: 767px){
+    .pricing_card_body {
+        display: flex;
+        justify-content: center;
+    }
+    .pricing_card_contain {
+        padding: 25px 0;
+    }
+    .dollar {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .per_month {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .pricingCard_button {
+        padding: 3px 3px;
+    } 
+    .pricingcard_btn_text {
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .pricing_banner_container {
+        padding: 5px 0 120px 0;
+    }
+    .pricing_card_body {
+        display: flex;
+        justify-content: center;
+    }
+    .pricing_sub_heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .pricing_heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .pricing_card_contain{
+        padding: 10px 0;
+    }
+    .pricing_card_title {
+        font-size: 16px;
+        line-height: 0px;
+    }
+    .card_price_section{
+        padding: 10px 10px;
+    }
+    .dollar {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .per_month {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .offer {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .pricingcard_btn_text {
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .pricingCard_button {
+        padding: 6px 2px;
+    }
+    .mx-3 {
+        margin-right: 0.5rem !important;
+        margin-left: 0.2rem !important;
+    }
+    .pricing_card_texts {
+        font-size: 9px;
+        line-height: 24px;
+        padding: 1px;
+    }
+    .pricing_banner_header {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    .pricing_banner_para {
+        padding: 13px 5px;
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .pricing_banner_container_image {
+        padding: 20px 0;
+    }
+    .pricing_banner_section_image {
+        margin: -130px auto 0;
+    }
+}

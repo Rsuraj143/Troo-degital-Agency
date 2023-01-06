@@ -1,0 +1,115 @@
+.footer{
+    position: relative;
+    z-index: 1;
+
+    width: 100%;
+    background-color: rgb(0 0 0 / 89%);
+    padding: 15px 15px;
+}
+
+.footer::after{
+    content: "";
+    background-image: url(../../Images/footerBG.png);
+    background-repeat: no-repeat;
+    height: 370px;
+    position: absolute;
+    top: 0;
+    width: -webkit-fill-available;
+    z-index: -1;
+}
+.footer_container{
+    max-width: 1300px;
+    margin: 0 auto;
+    z-index: 1;
+    color: #ffff;
+    padding-top: 105px;
+}
+.navmanu_footer{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 0;
+}
+.navmanu_footer li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_para_section{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+    padding: 20px 0;
+}
+.footer_para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    max-width: 700px;
+}
+.footer_social{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.footer_social:hover{
+    color: aqua;
+}
+.footer_icons{
+    display: flex;
+    column-gap: 8px; 
+}
+.footer_buttom_text{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+   .footer .footer_nav {
+        display: unset;
+   }
+   .footer  .footer_para_section {
+    display: unset;
+   
+}
+.footer .footer_buttom_text {
+    display: unset;
+ 
+}
+  }
+  @media only screen and (max-width: 1080px){
+    .footer::after {
+        display: none;
+    }
+    .footer_container {
+        padding-top: 0px;
+    }
+    .footer_para {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .navmanu_footer li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer {
+        padding: 5px 5px;
+    }
+    hr {
+        margin: 0.2rem 0;
+    }
+    .footer_social {
+        width: 25px;
+        height: 25px;
+    }
+  }
