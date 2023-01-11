@@ -18,9 +18,9 @@ const PortfolioComponent = () => {
       <div className="portfolio">
         <div className="portfolio_banner" >
           <div className="portfolio_banner_container" >
-            <div className="banner_sub_heading">Recently Completed Work</div>
-            <div className="banner_heading">Our Recently Completed </div>
-            <div className="banner_heading">Projects List</div>
+            <h5 className="banner_sub_heading">Recently Completed Work</h5>
+            <h2 className="banner_heading">Our Recently Completed </h2>
+            <h2 className="banner_heading">Projects List</h2>
           </div>
         </div>
         <div className="portfolio_container" >
@@ -33,7 +33,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Business</h6>
+                  <h5 className="sub_heading">Business</h5>
                   <h4 className="heading">Platform integration</h4>
                 </div>
                 <div className="cardicon">
@@ -49,7 +49,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Technology</h6>
+                  <h5 className="sub_heading">Technology</h5>
                   <h4 className="heading">Cyber security</h4>
                 </div>
                 <div className="cardicon">
@@ -65,7 +65,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Technology</h6>
+                  <h5 className="sub_heading">Technology</h5>
                   <h4 className="heading">Smart marketing</h4>
                 </div>
                 <div className="cardicon">
@@ -81,7 +81,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Strategy</h6>
+                  <h5 className="sub_heading">Strategy</h5>
                   <h4 className="heading">Tech solutions</h4>
                 </div>
                 <div className="cardicon">
@@ -97,7 +97,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Design</h6>
+                  <h5 className="sub_heading">Design</h5>
                   <h4 className="heading">Deployment service</h4>
                 </div>
                 <div className="cardicon">
@@ -113,7 +113,7 @@ const PortfolioComponent = () => {
               />
               <div className="portfoliocard">
                 <div>
-                  <h6 className="sub_heading">Idea</h6>
+                  <h5 className="sub_heading">Idea</h5>
                   <h4 className="heading">Innovative apps</h4>
                 </div>
                 <div className="cardicon">

@@ -123,6 +123,7 @@
   .portfoliocard:hover{
     background: #FA5D32;
     transition: 1s ease-out;
+    cursor: pointer;
   }
   .sub_heading{
     font-family: 'Poppins';
@@ -208,7 +209,7 @@
   line-height: 16px;
 }
 .sub_heading {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
 }
 .portfoliocard {
@@ -216,8 +217,8 @@
   top: -85px;
 }
 .banner_heading {
-  font-size: 27px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 26px;
   padding: 0; 
 }
 }

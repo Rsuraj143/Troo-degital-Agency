@@ -111,6 +111,11 @@
     border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
     margin-bottom: 20px;
 }
+.accordion-button:focus {
+   
+    box-shadow: unset;
+   
+}
 .accordion-button {
     position: relative;
     display: flex;

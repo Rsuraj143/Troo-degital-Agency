@@ -25,11 +25,11 @@ const Blogs = () => {
   return (
     <div className="blogSection">
       <div>
-        <div className="blog_sub_heading">Helping Businesses Since 1987</div>
+        <h5 className="blog_sub_heading">Helping Businesses Since 1987</h5>
         <div className="d-flex justify-content-between">
           <div>
-            <h3 className="blog_heading">Stay Update with TRoo Agency</h3>
-            <h3 className="blog_heading">News & Blogs</h3>
+            <h2 className="blog_heading">Stay Update with TRoo Agency</h2>
+            <h2 className="blog_heading">News & Blogs</h2>
           </div>
           <div className="arrowGroup">
             <span className="arrows" onClick={btnpressprev}>
@@ -47,9 +47,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_1} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   How To Use a Remarketing Strategy To Get More
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">8 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -62,9 +62,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_2} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   SEO Statistics You Should Know in 2022
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">7 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -77,9 +77,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_3} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   SEO Statistics You Should Know in 2022
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">7 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -92,9 +92,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_1} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   How To Use a Remarketing Strategy To Get More
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">6 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -107,9 +107,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_1} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   How To Use a Remarketing Strategy To Get More
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">8 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -122,9 +122,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_3} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   SEO Statistics You Should Know in 2022
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">7 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -137,9 +137,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_2} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   SEO Statistics You Should Know in 2022
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">7 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>
@@ -152,9 +152,9 @@ const Blogs = () => {
             <div className="mycard">
               <img className="blog_img" src={blog_3} alt="blog" />
               <div className="blog_block">
-                <h3 className="blog_block_heading">
+                <h4 className="blog_block_heading">
                   How To Use a Remarketing Strategy To Get More
-                </h3>
+                </h4>
                 <div className="blog_block_text">
                   <p className="blog_text">6 August 2022</p>
                   <p className="blog_text blog_text_name">Theresa Underwood</p>

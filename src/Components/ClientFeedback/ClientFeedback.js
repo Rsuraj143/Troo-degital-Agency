@@ -33,11 +33,11 @@ const ClientFeedback = () => {
       <div className="feedback_banner">
         <div className="fedback_banner_container">
           <div>
-            <div className="client_banner_subheading">Clients Feedbacks</div>
-            <div className="feedback_banner_heading">
+            <h5 className="client_banner_subheading">Clients Feedbacks</h5>
+            <h2 className="feedback_banner_heading">
               What Our Clients Say About
-            </div>
-            <div className="feedback_banner_heading">Our Services</div>
+            </h2>
+            <h2 className="feedback_banner_heading">Our Services</h2>
           </div>
         </div>
       </div>
@@ -68,8 +68,8 @@ const ClientFeedback = () => {
                 <div className="info_feedback">
                   <img src={FeedbackImg_1} alt="smile1" />
                   <div className="feedback_title">
-                    <h4 className="person_name">Randy Heart</h4>
-                    <h6 className="person_desig">CEO & Founder</h6>
+                    <h4 className="person_name">Adam Holland</h4>
+                    <h5 className="person_desig">Google CEO</h5>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,8 @@ const ClientFeedback = () => {
                 <div className="info_feedback">
                   <img src={FeedbackImg_2} alt="smile1" />
                   <div className="feedback_title">
-                    <h4 className="person_name">Randy Heart</h4>
-                    <h6 className="person_desig">CEO & Founder</h6>
+                    <h4 className="person_name">Christina Hathway</h4>
+                    <h5 className="person_desig">Flipkart CEO</h5>
                   </div>
                 </div>
               </div>
@@ -110,8 +110,8 @@ const ClientFeedback = () => {
                 <div className="info_feedback">
                   <img src={FeedbackImg_3} alt="smile1" />
                   <div className="feedback_title">
-                    <h4 className="person_name">Randy Heart</h4>
-                    <h6 className="person_desig">CEO & Founder</h6>
+                    <h4 className="person_name">Steve Namker</h4>
+                    <h5 className="person_desig">Facebook CEO</h5>
                   </div>
                 </div>
               </div>

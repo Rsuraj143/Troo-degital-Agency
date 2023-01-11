@@ -18,10 +18,10 @@ const ServiceComponent = () => {
     <div id={datanew}>
       <div className="service">
         <div className="serviceContainer" >
-          <div className="service_sub_heading">Our Services List</div>
+          <h5 className="service_sub_heading">Our Services List</h5>
           <div className="py-3">
-            <div className="service_heading">Services We’re Providing to</div>
-            <div className="service_heading">Our Customers</div>
+            <h2 className="service_heading">Services We’re Providing to</h2>
+            <h2 className="service_heading">Our Customers</h2>
           </div>
 
           <div class="row row-cols-1 row-cols-md-3 g-3 ">

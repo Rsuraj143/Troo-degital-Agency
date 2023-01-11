@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import arrow from "../../Images/Arrow.png";
 import { MdClose } from "react-icons/md";
 import "./Navbar.css";
@@ -72,28 +72,31 @@ const NavBar = () => {
 export default NavBar;
 
 const Drawer = (props) => {
+  
+  const activeLink = "text-danger"
+  const normal = ""
   return (
     <ul {...props}>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink className={({isActive})=>isActive ? activeLink : normal} to="/">Home</NavLink>
       </li>
       <li>
-        <Link to="/about">About Us</Link>
+        <NavLink to="/about" className={({isActive})=>isActive ? activeLink : normal}>About Us</NavLink>
       </li>
       <li>
-        <Link to="/service">Our Services</Link>
+        <NavLink to="/service" className={({isActive})=>isActive ? activeLink : normal}>Our Services</NavLink>
       </li>
       <li>
-        <Link to="/portfolio">Portfolio</Link>
+        <NavLink to="/portfolio" className={({isActive})=>isActive ? activeLink : normal}>Portfolio</NavLink>
       </li>
       <li>
-        <Link to="/teams">Our Team</Link>
+        <NavLink to="/teams" className={({isActive})=>isActive ? activeLink : normal}>Our Team</NavLink>
       </li>
       <li>
-        <Link to="/testimonial">Testimonial</Link>
+        <NavLink to="/testimonial" className={({isActive})=>isActive ? activeLink : normal}>Testimonial</NavLink>
       </li>
       <li>
-        <Link to="/contact">Contact Us</Link>
+        <NavLink to="/contact" className={({isActive})=>isActive ? activeLink : normal}>Contact Us</NavLink>
       </li>
     </ul>
   );

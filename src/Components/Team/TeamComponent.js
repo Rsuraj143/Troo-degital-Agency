@@ -23,17 +23,17 @@ const TeamComponent = () => {
   return (
     <div id={datanew}>
       <div className="team_container">
-        <div className="service_sub_heading">Our Team Member</div>
+        <h5 className="service_sub_heading">Our Team Member</h5>
         <div className="py-3">
-          <div className="service_heading">We Have Professional</div>
-          <div className="service_heading">Creative Team</div>
+          <h2 className="service_heading">We Have Professional</h2>
+          <h2 className="service_heading">Creative Team</h2>
         </div>
         <div class="team_grid_container">
           <div class="person" >
             <img src={team1} alt="team1" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -51,7 +51,7 @@ const TeamComponent = () => {
             <img src={team2} alt="team2" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -69,7 +69,7 @@ const TeamComponent = () => {
             <img src={team3} alt="team3" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -87,7 +87,7 @@ const TeamComponent = () => {
             <img src={team4} alt="team4" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -105,7 +105,7 @@ const TeamComponent = () => {
             <img src={team5} alt="team5" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -123,7 +123,7 @@ const TeamComponent = () => {
             <img src={team6} alt="team6" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -141,7 +141,7 @@ const TeamComponent = () => {
             <img src={team7} alt="team7" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"
@@ -159,7 +159,7 @@ const TeamComponent = () => {
             <img src={team8} alt="team8" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
-              <h6 className="person_desig">CEO & Founder</h6>
+              <h5 className="person_desig">CEO & Founder</h5>
               <div className="d-flex justify-content-center gap-2">
                 <img
                   className="team_social"

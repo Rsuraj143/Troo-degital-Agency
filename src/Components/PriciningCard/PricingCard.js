@@ -2,7 +2,7 @@ import React from "react";
 import "./PricingCard.css";
 
 import { Link } from "react-router-dom";
-import arrow from "../../Images/Arrow.png";
+import { HiChevronRight } from 'react-icons/hi';
 import tickmark from "../../Images/tickmark.png";
 import crossmark from "../../Images/crossmark.png";
 
@@ -12,12 +12,12 @@ const PricingCard = () => {
       <div className="pricing_card">
         <div className="pricing_banner_container" >
           <div>
-            <div className="pricing_sub_heading">
+            <h5 className="pricing_sub_heading">
               Our Best Pricing Plan
-            </div>
+            </h5>
             <div>
-              <div className="pricing_heading">Choose package match </div>
-              <div className="pricing_heading">Projects List</div>
+              <h2 className="pricing_heading">Choose package match </h2>
+              <h2 className="pricing_heading">Projects List</h2>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ const PricingCard = () => {
             <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col main_pricingcard">
                 <div className="pricingcard">
-                  <h5 className="pricing_card_title">Starter Plan</h5>
+                  <h3 className="pricing_card_title">Starter Plan</h3>
                   <div className="pricing_card_body">
                     <div className="card_price_section">
                       <div>
@@ -39,7 +39,7 @@ const PricingCard = () => {
                             <span className="pricingcard_btn_text">
                               Choose This Plan
                             </span>
-                            <img className="btn_arrow" src={arrow} alt="arrow" />
+                            <HiChevronRight className="rightangle_icon"/>
                           </button>
                         </Link>
                       </div>
@@ -71,7 +71,7 @@ const PricingCard = () => {
               </div>
               <div className="col main_pricingcard">
                 <div className="pricingcard">
-                  <h5 className="pricing_card_title">Basic Plan</h5>
+                  <h3 className="pricing_card_title">Basic Plan</h3>
                   <div className="pricing_card_body">
                     <div className="card_price_section">
                       <div>
@@ -85,7 +85,7 @@ const PricingCard = () => {
                             <span className="pricingcard_btn_text">
                               Choose This Plan
                             </span>
-                            <img className="btn_arrow" src={arrow} alt="arrow" />
+                            <HiChevronRight className="rightangle_icon"/>
                           </button>
                         </Link>
                       </div>
@@ -117,7 +117,7 @@ const PricingCard = () => {
               </div>
               <div className="col main_pricingcard">
                 <div className="pricingcard">
-                  <h5 className="pricing_card_title">Standaed Plan</h5>
+                  <h3 className="pricing_card_title">Standaed Plan</h3>
                   <div className="pricing_card_body">
                     <div className="card_price_section">
                       <div>
@@ -131,7 +131,7 @@ const PricingCard = () => {
                             <span className="pricingcard_btn_text">
                               Choose This Plan
                             </span>
-                            <img className="btn_arrow" src={arrow} alt="arrow" />
+                            <HiChevronRight className="rightangle_icon"/>
                           </button>
                         </Link>
                       </div>
@@ -163,7 +163,7 @@ const PricingCard = () => {
               </div>
               <div className="col main_pricingcard">
                 <div className="pricingcard">
-                  <h5 className="pricing_card_title">Professional Plan</h5>
+                  <h3 className="pricing_card_title">Professional Plan</h3>
                   <div className="pricing_card_body">
                     <div className="card_price_section">
                       <div>
@@ -177,7 +177,7 @@ const PricingCard = () => {
                             <span className="pricingcard_btn_text">
                               Choose This Plan
                             </span>
-                            <img className="btn_arrow" src={arrow} alt="arrow" />
+                            <HiChevronRight className="rightangle_icon"/>
                           </button>
                         </Link>
                       </div>
@@ -213,16 +213,16 @@ const PricingCard = () => {
       </div>
       <div className="pricing_banner_section_image">
         <div className="pricing_banner_container_image">
-          <h3 className="pricing_banner_header">
+          <h2 className="pricing_banner_header">
             Always Delivering Quality Solutions
-          </h3>
+          </h2>
           <p className="pricing_banner_para">
             Lorem ipsum is are many variations of pass.
           </p>
           <div className="text-center">
-            <button className="pricingCard_banner_button">
-              <span className="pricingcard_btn_text">Contact Us</span>
-              <img className="btn_arrow" src={arrow} alt="arrow" />
+            <button className="button">
+              <span className="btn_text">Contact Us</span>
+              <HiChevronRight className="rightangle_icon"/>
             </button>
           </div>
         </div>

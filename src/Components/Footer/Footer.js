@@ -56,7 +56,7 @@ const Footer = () => {
           <div className="footer_para">
             Copyright © 2022. troothemes. All rights reserved.
           </div>
-          <div className="d-flex justify-content-space-between gap-5">
+          <div className="d-flex justify-content-between">
             <div className="footer_para">Terms & Conditions</div>
             <div className="footer_para">Privacy Policy</div>
           </div>

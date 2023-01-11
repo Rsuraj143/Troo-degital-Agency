@@ -3,7 +3,7 @@ import "./Contact.css";
 import phone from "../../Images/phone.png";
 import email from "../../Images/email.png";
 import location from "../../Images/location.png";
-import arrow from "../../Images/Arrow.png";
+import { HiChevronRight } from 'react-icons/hi';
 
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -17,8 +17,8 @@ const ContactComponent = () => {
       <div className="contact_section">
         <div className="contact_container">
           <div className="contact_left" >
-            <div className="compare_sub_heading">Let's Work Together</div>
-            <h3 className="comnpare_heading">Need a successful project?</h3>
+            <h5 className="compare_sub_heading">Let's Work Together</h5>
+            <h2 className="comnpare_heading">Need a successful project?</h2>
             <p className="compare_para">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -29,14 +29,14 @@ const ContactComponent = () => {
                 <div className="contact_details_contant">
                   <img src={phone} alt="phone img" className="contact_icons" />
                   <div>
-                    <h5 className="contact_details_heading">Phone</h5>
+                    <h4 className="contact_details_heading">Phone</h4>
                     <p className="conact_details_sub">+44 123 456 7890</p>
                   </div>
                 </div>
                 <div className="contact_details_contant">
                   <img src={email} alt="email" className="contact_icons" />
                   <div>
-                    <h5 className="contact_details_heading">Email</h5>
+                    <h4 className="contact_details_heading">Email</h4>
                     <p className="conact_details_sub">contact@trootemes.com</p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const ContactComponent = () => {
                     className="contact_icons"
                   />
                   <div>
-                    <h5 className="contact_details_heading">Location</h5>
+                    <h4 className="contact_details_heading">Location</h4>
                     <p className="conact_details_sub">
                       98 Lancaster Court Pough keepsie, NY 12601
                     </p>
@@ -72,7 +72,7 @@ const ContactComponent = () => {
                     <div className="label ">Name</div>
                     <TextField
                       label=""
-                      defaultValue="Name"
+                      placeholder="Name"
                       variant="standard"
                     />
                   </div>
@@ -80,14 +80,14 @@ const ContactComponent = () => {
                     <div className="label ">Email</div>
                     <TextField
                       label=""
-                      defaultValue="Email"
+                      placeholder="Email"
                       variant="standard"
                     />
                   </div>
                 </div>
                 <div>
                   <div className="label ">Phone</div>
-                  <TextField label="" defaultValue="Phone" variant="standard" />
+                  <TextField label="" placeholder="Phone" variant="standard" />
                   <div className="select_text">
                     <FormControl fullWidth>
                       <InputLabel
@@ -117,7 +117,7 @@ const ContactComponent = () => {
                 <div className="label ">How can we help you?</div>
                 <TextField
                   label=""
-                  defaultValue="Message"
+                  placeholder="Message"
                   variant="standard"
                   className="form_inputs"
                   style={{ width: "90%" }}
@@ -126,7 +126,7 @@ const ContactComponent = () => {
               <div className="form_btn">
                 <button className="button">
                   <span className="btn_text">Submit Form</span>
-                  <img src={arrow} alt="arrow" />
+                  <HiChevronRight className="rightangle_icon"/>
                 </button>
               </div>
             </Box>

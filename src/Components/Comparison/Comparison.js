@@ -9,10 +9,10 @@ const Comparison = () => {
       <div className="compare_BG">
         <div className="compare_container">
           <div className="container_left" >
-            <div className="compare_sub_heading">
+            <h5 className="compare_sub_heading">
                 How We Different to Others
-            </div>
-            <h3 className="comnpare_heading">Why People Choose Us</h3>
+            </h5>
+            <h2 className="comnpare_heading">Why People Choose Us</h2>
             <p className="compare_para">
               Lorem Ipsum is simply dummy text of the printing and is
               typesetting industry. Lorem Ipsum has been the industry's standard
