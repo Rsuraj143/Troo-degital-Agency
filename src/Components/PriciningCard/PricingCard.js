@@ -1,10 +1,10 @@
-import React from "react";
-import "./PricingCard.css";
 
+import "./PricingCard.css";
 import { Link } from "react-router-dom";
 import { HiChevronRight } from 'react-icons/hi';
-import tickmark from "../../Images/tickmark.png";
-import crossmark from "../../Images/crossmark.png";
+import { BiCheck } from 'react-icons/bi';
+import { RxCross2 } from 'react-icons/rx';
+
 
 const PricingCard = () => {
   return (
@@ -46,23 +46,23 @@ const PricingCard = () => {
                     </div>
                     <div className="pricingcard_right">
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Faster Measurement</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                      <BiCheck className="checkmark"/>
                         <span>Determine ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                      <BiCheck className="checkmark"/>
                         <span>Multiply the ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Fibre sheet roofing designs</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Plastic Roofing Sheet Design</span>
                       </div>
                     </div>
@@ -92,23 +92,23 @@ const PricingCard = () => {
                     </div>
                     <div className="pricingcard_right">
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                      <BiCheck className="checkmark"/>
                         <span>Faster Measurement</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Determine ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Multiply the ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Fibre sheet roofing designs</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Plastic Roofing Sheet Design</span>
                       </div>
                     </div>
@@ -138,23 +138,23 @@ const PricingCard = () => {
                     </div>
                     <div className="pricingcard_right">
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Faster Measurement</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Determine ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Multiply the ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Fibre sheet roofing designs</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                      <RxCross2 className="checkmark"/>
                         <span>Plastic Roofing Sheet Design</span>
                       </div>
                     </div>
@@ -184,23 +184,23 @@ const PricingCard = () => {
                     </div>
                     <div className="pricingcard_right">
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Faster Measurement</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Determine ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={tickmark} className="mx-3" alt="rickmark" />
+                        <BiCheck className="checkmark"/>
                         <span>Multiply the ground-level squares</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                        <RxCross2 className="checkmark"/>
                         <span>Fibre sheet roofing designs</span>
                       </div>
                       <div className="pricing_card_texts">
-                        <img src={crossmark} className="mx-3" alt="rickmark" />
+                        <RxCross2 className="checkmark"/>
                         <span>Plastic Roofing Sheet Design</span>
                       </div>
                     </div>

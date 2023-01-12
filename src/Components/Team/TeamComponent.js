@@ -10,16 +10,16 @@ import team5 from "../../Images/team5.png";
 import team6 from "../../Images/team6.png";
 import team7 from "../../Images/team7.png";
 import team8 from "../../Images/team8.png";
-import facebook from "../../Images/FB.svg";
-import twitter from "../../Images/TW.svg";
-import linkedin from "../../Images/LN.svg";
-import insta from "../../Images/IN.svg";
 
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const TeamComponent = () => {
   const location = useLocation();
   const datanew = location.pathname.replace("/", "");
-  console.log(datanew, "::datanew");
+
   return (
     <div id={datanew}>
       <div className="team_container">
@@ -29,21 +29,24 @@ const TeamComponent = () => {
           <h2 className="service_heading">Creative Team</h2>
         </div>
         <div class="team_grid_container">
-          <div class="person" >
+          <div class="person">
             <img src={team1} alt="team1" className="personIMG" />
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -52,16 +55,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -70,16 +76,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -88,16 +97,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -106,16 +118,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -124,16 +139,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -142,16 +160,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>
@@ -160,16 +181,19 @@ const TeamComponent = () => {
             <div className="team_card">
               <h4 className="person_name">Randy Heart</h4>
               <h5 className="person_desig">CEO & Founder</h5>
-              <div className="d-flex justify-content-center gap-2">
-                <img
-                  className="team_social"
-                  src={facebook}
-                  width={26}
-                  alt="Facebook"
-                />
-                <img className="team_social" src={twitter} alt="twitter" />
-                <img className="team_social" src={linkedin} alt="linkedin" />
-                <img className="team_social" src={insta} alt="insta" />
+              <div className="d-flex justify-content-center ">
+                <div className="team_social">
+                  <FaFacebookF className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaInstagram className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaLinkedinIn className="team_social_icon" />
+                </div>
+                <div className="team_social">
+                  <FaTwitter className="team_social_icon" />
+                </div>
               </div>
             </div>
           </div>

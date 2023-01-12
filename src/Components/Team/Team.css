@@ -33,7 +33,7 @@
     background-color: #fff;
     padding: 10px 20px;
     position: relative;
-    top: -130px;
+    top: -150px;
     z-index: 1;
     margin: 0 auto;
     text-align: center;
@@ -64,15 +64,22 @@
     text-align: center;
     color: #777777;
   }
-  .team_social:hover{
-    background-color: #FA5D32;
+
+  .team_social{
+    padding: 4px 7px;
     border-radius: 50%;
-    transition: 0.8s ;
-    cursor: pointer;
   }
-  img.team_social {
-    padding: 1px;
-}
+  .team_social:hover {
+    background-color: #FA5D32;
+    transition: 2s all ;
+    cursor: pointer;
+   
+  }
+  .team_social:hover .team_social_icon{
+    color: #ffff;
+    transition: .8s all ;
+  }
+ 
 @media only screen and (max-width: 980px){
   .service_heading {
     font-size: 24px;

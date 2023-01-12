@@ -17,7 +17,6 @@
 .about_left_container{
     width: 100%;
 }
-
 .about_sub_heading::before{
     content: "";
     width: 35px;
@@ -111,27 +110,27 @@
     margin: 20px 0;
 }
 @media only screen and (max-width: 980px){
-    .about_heading {
-        font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 15px; 
-    }
-    .about_para_heading {
-        font-size: 18px;
-        line-height: 25px;
-        margin-bottom: 15px;
-    }
-    .about_para {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .about_left_devision {
-        padding: 10px 10px;
-    }
-    .about_card_heading {
-        font-size: 18px;
-        line-height: 22px;
-    }
+.about_heading {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px; 
+}
+.about_para_heading {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.about_para {
+    font-size: 15px;
+    line-height: 20px;
+}
+.about_left_devision {
+    padding: 10px 10px;
+}
+.about_card_heading {
+    font-size: 18px;
+    line-height: 22px;
+}
 }
 @media only screen and (max-width: 767px){
     .aboutContainer {

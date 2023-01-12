@@ -59,12 +59,13 @@
     max-width: 700px;
 }
 .footer_social{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
+    color: #ffff;
 }
 .footer_social:hover{
-    color: aqua;
+    color: #FA5D32;
 }
 .footer_icons{
     display: flex;

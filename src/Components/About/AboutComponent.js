@@ -6,11 +6,9 @@ import thumbIcon from "../../Images/thumbIcon.png";
 import handsIcon from "../../Images/handsIcon.png";
 import { HiChevronRight } from 'react-icons/hi';
 import { Link, useLocation } from "react-router-dom";
-
 const AboutComponent = () => {
   const location = useLocation();
   const datanew = location.pathname.replace("/", "");
-  console.log(datanew, "::datanew");
   return (
     <div className={datanew}>
       <div className="AboutImg">

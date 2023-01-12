@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import arrow from "../../Images/Arrow.png";
 import { MdClose } from "react-icons/md";
 import "./Navbar.css";
 import Logo from "../../Images/Logo.png";
 import Call from "../../Images/call.png";
 import Hamburger from "../../Images/Humberders.png";
+import { HiChevronRight } from "react-icons/hi";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="header">
@@ -46,23 +50,22 @@ const NavBar = () => {
           <div className="drawer_container">
             <div className="drawer_btn_container">
               <Link>
-                <button className="drawer_btn">
-                  <span className="drawer_btn_text">Log In</span>
-                  <img className="btn_arrow" src={arrow} alt="arrow" />
+                <button className="button">
+                  <span className="btn_text">Log in</span>
+                  <HiChevronRight className="rightangle_icon" />
                 </button>
               </Link>
               <Link>
-                <button className="drawer_btn">
-                  <span className="drawer_btn_text">Sign Up</span>
-                  <img className="btn_arrow" src={arrow} alt="arrow" />
+                <button className="button">
+                  <span className="btn_text">Sign Up</span>
+                  <HiChevronRight className="rightangle_icon" />
                 </button>
               </Link>
             </div>
             <div className="drawer_manu">
-            <Drawer />
+              <Drawer />
+            </div>
           </div>
-          </div>
-          
         </div>
       </div>
     </div>
@@ -70,33 +73,66 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
 const Drawer = (props) => {
-  
-  const activeLink = "text-danger"
-  const normal = ""
+  const activeLink = "text-danger";
+  const normal = "";
   return (
     <ul {...props}>
       <li>
-        <NavLink className={({isActive})=>isActive ? activeLink : normal} to="/">Home</NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+          to="/"
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/about" className={({isActive})=>isActive ? activeLink : normal}>About Us</NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          About Us
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/service" className={({isActive})=>isActive ? activeLink : normal}>Our Services</NavLink>
+        <NavLink
+          to="/service"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          Our Services
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/portfolio" className={({isActive})=>isActive ? activeLink : normal}>Portfolio</NavLink>
+        <NavLink
+          to="/portfolio"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          Portfolio
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/teams" className={({isActive})=>isActive ? activeLink : normal}>Our Team</NavLink>
+        <NavLink
+          to="/teams"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          Our Team
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/testimonial" className={({isActive})=>isActive ? activeLink : normal}>Testimonial</NavLink>
+        <NavLink
+          to="/testimonial"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          Testimonial
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/contact" className={({isActive})=>isActive ? activeLink : normal}>Contact Us</NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) => (isActive ? activeLink : normal)}
+        >
+          Contact Us
+        </NavLink>
       </li>
     </ul>
   );

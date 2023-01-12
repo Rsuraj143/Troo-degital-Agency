@@ -2,10 +2,10 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Logo from "../../Images/Logo.png";
-import facebook from "../../Images/facebook.svg";
-import twitter from "../../Images/twetter.svg";
-import linkedin from "../../Images/linkedin.svg";
-import insta from "../../Images/instagram.svg";
+import { FaFacebookF } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -45,10 +45,10 @@ const Footer = () => {
             and scrambled
           </p>
           <div className="footer_icons">
-            <a href={facebookurl}><img className="footer_social" src={facebook} alt="Facebook" /></a>
-            <a href={twitterurl}><img className="footer_social" src={twitter} alt="twitter" /></a>
-            <a href={linkedinurl}><img className="footer_social" src={linkedin} alt="linkedin" /></a>
-            <a href={instagramurl}><img className="footer_social" src={insta} alt="insta" /></a>
+            <a href={facebookurl}><FaFacebookF className="footer_social" /></a>
+            <a href={twitterurl}><FaTwitter className="footer_social" /></a>
+            <a href={linkedinurl}><FaLinkedinIn className="footer_social" /></a>
+            <a href={instagramurl}><FaInstagram className="footer_social" /></a>
           </div>
         </div>
         <hr />

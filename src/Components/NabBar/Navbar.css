@@ -118,7 +118,14 @@ ul{
     color: white;
     text-decoration: none;
 }
-
+@media screen and (min-width:1305px) and (max-width:1600px){
+    .hamburger_btn_manu {
+        width: 30%;
+    }
+    .navbar_number{
+        display: none;
+    }
+}
 @media screen and (min-width:1250px) and (max-width:1304px){
     ul{
         gap: 20px;
@@ -128,6 +135,12 @@ ul{
     }
     .logoImg{
         width: 100%;
+    }
+    .hamburger_btn_manu {
+        width: 35%;
+    }
+    .navbar_number{
+        display: none;
     }
 }
 
@@ -155,11 +168,19 @@ ul{
     }
     .hamburger_btn_manu {
         width: 35%;
-        }
-        .drawer_manu{
-            display: block;
-        }
+    }
+    .drawer_manu{
+        display: block;
+    }
+    .navbar_number{
+        display: none;
+    }
     
+}
+@media screen and (max-width:1080px){
+    .hamburger_btn_manu {
+        width: 50%;
+    }
 }
 @media only screen and (max-width: 767px){
     .navbar_number{

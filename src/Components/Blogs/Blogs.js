@@ -13,13 +13,13 @@ const Blogs = () => {
   const btnpressprev = () => {
     const { clientWidth, scrollLeft } = boxRef.current;
     boxRef.current.scrollLeft = scrollLeft - clientWidth;
-    console.log(boxRef.current.scrollLeft);
+    
   };
 
   const btnpressnext = () => {
     const { clientWidth, scrollLeft } = boxRef.current;
     boxRef.current.scrollLeft = scrollLeft + clientWidth;
-    console.log(boxRef.current.scrollLeft);
+    
   };
 
   return (

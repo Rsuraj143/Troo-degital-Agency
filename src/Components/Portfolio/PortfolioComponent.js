@@ -12,7 +12,6 @@ import cardtexticon from "../../Images/cardtexticon.png";
 const PortfolioComponent = () => {
   const location = useLocation();
   const datanew = location.pathname.replace("/", "");
-  console.log(datanew, "::datanew");
   return (
     <div id={datanew}>
       <div className="portfolio">

@@ -303,6 +303,10 @@ width: 100%;
     transition-timing-function: ease-out;
     z-index: -1;
 }
+.checkmark{
+    font-size: 18px;
+    margin: 0 5px;
+}
 .pricingCard_banner_button:hover::before{
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

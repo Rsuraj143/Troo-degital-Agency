@@ -12,7 +12,6 @@ import { useLocation } from "react-router-dom";
 const ServiceComponent = () => {
   const location = useLocation();
   const datanew = location.pathname.replace("/", "");
-  console.log(datanew, "::datanew");
 
   return (
     <div id={datanew}>

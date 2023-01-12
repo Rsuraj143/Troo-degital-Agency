@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 import "./ClientFeedback.css";
-import { useLocation } from "react-router-dom";
-
 import FeedbackImg_1 from "../../Images/FeedbackImg_1.png";
 import FeedbackImg_2 from "../../Images/FeedbackImg_2.png";
 import FeedbackImg_3 from "../../Images/FeedbackImg_3.png";
@@ -11,25 +9,21 @@ import rightArrow from "../../Images/arrow-narrow-right.png";
 import leftArrow from "../../Images/arrow-narrow-left.png";
 
 const ClientFeedback = () => {
-  const location = useLocation();
-  const datanew = location.pathname.replace("/", "");
-  console.log(datanew, "::datanew");
-
   const boxRef = useRef(null);
 
   const btnpressprev = () => {
     const { clientWidth, scrollLeft } = boxRef.current;
     boxRef.current.scrollLeft = scrollLeft - clientWidth;
-    console.log(boxRef.current.scrollLeft);
+
   };
 
   const btnpressnext = () => {
     const { clientWidth, scrollLeft } = boxRef.current;
     boxRef.current.scrollLeft = scrollLeft + clientWidth;
-    console.log(boxRef.current.scrollLeft);
+   
   };
   return (
-    <div id="" className="client_feedback">
+    <div  className="client_feedback">
       <div className="feedback_banner">
         <div className="fedback_banner_container">
           <div>
