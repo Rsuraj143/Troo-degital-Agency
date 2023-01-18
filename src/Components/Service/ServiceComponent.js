@@ -23,8 +23,8 @@ const ServiceComponent = () => {
             <h2 className="service_heading">Our Customers</h2>
           </div>
 
-          <div class="row row-cols-1 row-cols-md-3 g-3 ">
-            <div class="col" data-aos="flip-left">
+          <div class="row rowgap row-cols-1 row-cols-md-3 g-3 ">
+            <div class="col">
               <div class="maincard">
                 <div class="card-body card">
                   <h3 class="servicecard_title">Digital Marketing</h3>
@@ -41,7 +41,7 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="flip-left">
+            <div class="col" >
               <div class="maincard">
                 <div class="card-body card">
                   
@@ -59,7 +59,7 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="flip-left">
+            <div class="col">
               <div class=" maincard">
                 <div class="card-body card">
     
@@ -77,7 +77,7 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="flip-left">
+            <div class="col">
               <div class="maincard">
                 <div class="card-body card">
                   
@@ -95,7 +95,7 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="flip-left">
+            <div class="col" >
               <div class="maincard">
                 <div class="card-body card">
                   
@@ -113,7 +113,7 @@ const ServiceComponent = () => {
                 </div>
               </div>
             </div>
-            <div class="col" data-aos="flip-left">
+            <div class="col" >
               <div class="maincard">
                 <div class="card-body card">
                  

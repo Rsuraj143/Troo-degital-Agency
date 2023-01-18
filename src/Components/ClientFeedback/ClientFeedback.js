@@ -5,8 +5,7 @@ import FeedbackImg_2 from "../../Images/FeedbackImg_2.png";
 import FeedbackImg_3 from "../../Images/FeedbackImg_3.png";
 import rating from "../../Images/ratting.png";
 import feedback_design from "../../Images/feedback_design.svg";
-import rightArrow from "../../Images/arrow-narrow-right.png";
-import leftArrow from "../../Images/arrow-narrow-left.png";
+import { BsArrowLeft,BsArrowRight } from 'react-icons/bs';
 
 const ClientFeedback = () => {
   const boxRef = useRef(null);
@@ -38,11 +37,11 @@ const ClientFeedback = () => {
 
       <div className="client_carousel_container">
         <div className="arrowGroup justify-content-end">
-          <span className="arrows" onClick={btnpressprev}>
-            <img src={leftArrow} alt="arroeRight" />
+          <span className="feedbackArrow" onClick={btnpressprev}>
+            <BsArrowLeft/>
           </span>
-          <span className="arrows" onClick={btnpressnext}>
-            <img src={rightArrow} alt="arroeleft" />
+          <span className="feedbackArrow" onClick={btnpressnext}>
+            <BsArrowRight/>
           </span>
         </div>
         <div className="client_carousel">

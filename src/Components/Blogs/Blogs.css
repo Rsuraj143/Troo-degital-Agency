@@ -43,15 +43,29 @@
     display: flex;
     align-items: end;
 }
-.arrows:hover{
+.blogarrows:hover {
   background-color: #FA5D32;
   transition: .3s ease-in-out;
+  color: #FFFFFF;
+}
+.blogarrows {
+  border: 0;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  color: #FA5D3260;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FA5D3220;
 }
 .mycard {
   min-width: 400px;
   max-width: 400px;
  position: relative;
-  margin: 10px;
+  margin: 11px;
   color: white;
 }
 .mycard:hover{
@@ -175,6 +189,14 @@
     max-width: 450px;
     margin: 18px;
   }
+  .blog_heading {
+    font-size: 30px;
+    line-height: 40px;
+}
+.blog_sub_heading {
+  font-size: 16px;
+  line-height: 30px;
+}
 }
 @media only screen and (max-width: 375px){
   .blogSection {

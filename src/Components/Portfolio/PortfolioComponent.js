@@ -7,7 +7,7 @@ import portfolioimg3 from "../../Images/portfolioimg3.png";
 import portfolioimg4 from "../../Images/portfolioimg4.png";
 import portfolioimg5 from "../../Images/portfolioimg5.png";
 import portfolioimg6 from "../../Images/portfolioimg6.png";
-import cardtexticon from "../../Images/cardtexticon.png";
+import { FaAngleRight } from 'react-icons/fa';
 
 const PortfolioComponent = () => {
   const location = useLocation();
@@ -31,12 +31,12 @@ const PortfolioComponent = () => {
                 className="cardImg"
               />
               <div className="portfoliocard">
-                <div>
+                <div >
                   <h5 className="sub_heading">Business</h5>
                   <h4 className="heading">Platform integration</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@ const PortfolioComponent = () => {
                   <h5 className="sub_heading">Technology</h5>
                   <h4 className="heading">Cyber security</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>
@@ -67,8 +67,8 @@ const PortfolioComponent = () => {
                   <h5 className="sub_heading">Technology</h5>
                   <h4 className="heading">Smart marketing</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>
@@ -83,8 +83,8 @@ const PortfolioComponent = () => {
                   <h5 className="sub_heading">Strategy</h5>
                   <h4 className="heading">Tech solutions</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ const PortfolioComponent = () => {
                   <h5 className="sub_heading">Design</h5>
                   <h4 className="heading">Deployment service</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>
@@ -115,8 +115,8 @@ const PortfolioComponent = () => {
                   <h5 className="sub_heading">Idea</h5>
                   <h4 className="heading">Innovative apps</h4>
                 </div>
-                <div className="cardicon">
-                  <img src={cardtexticon} alt="cardtexticon" />
+                <div className="portfolio_card_angle_right">
+                  <div className="cardicon"><FaAngleRight/></div>
                 </div>
               </div>
             </div>

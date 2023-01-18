@@ -13,6 +13,7 @@ const Footer = () => {
   let twitterurl = "https://twitter.com/"
   let linkedinurl="https://in.linkedin.com/"
   let instagramurl="https://www.instagram.com/"
+  let trootheme = "https://torothemes.com/"
 
   return (
     <div className="footer">
@@ -54,9 +55,9 @@ const Footer = () => {
         <hr />
         <div className="footer_buttom_text">
           <div className="footer_para">
-            Copyright © 2022. troothemes. All rights reserved.
+            Copyright © 2022. <a className="trootheme" href={trootheme}>troothemes</a> . All rights reserved.
           </div>
-          <div className="d-flex justify-content-between">
+          <div className="term_condition">
             <div className="footer_para">Terms & Conditions</div>
             <div className="footer_para">Privacy Policy</div>
           </div>

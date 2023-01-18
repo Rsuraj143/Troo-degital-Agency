@@ -36,10 +36,10 @@
 }
 .bannerBlock{
     max-width:1300px;
-    padding: 100px 15px;
+    padding: 110px 15px;
     display: flex;
     justify-content: space-between;
-    margin: 110px auto;
+    margin: 118px auto;
 }
 .headingSm::before{
     content: "";
@@ -67,6 +67,9 @@
     z-index: 999;
     margin-bottom: 24px;
 }
+.btn{
+    margin-top: 32px;
+}
 .button{
     padding: 10px 15px;
     background-color: #FA5D32;
@@ -82,6 +85,10 @@
     transition-duration: .3s;
     transition-property: color;
     transition: all .5s ease;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 7px;
     
 }
 
@@ -124,7 +131,10 @@ button.button:hover:before {
     color: #FFFFFF;
 }
 .rightangle_icon{
-    color: #ffff;
+    color: #161616;
+    background-color: #ffff;
+    width: 30px;
+    height: 30px;
 }
 .headingBg{
     font-family: 'Poppins';
@@ -189,7 +199,6 @@ button.button:hover:before {
 .herocard p{
     margin-bottom: 0;
 }
-
 .mainherocard {
     display: flex;
     justify-content: space-around;
@@ -197,7 +206,7 @@ button.button:hover:before {
    margin: 0 auto;
    column-gap: 30px;
    position: relative;
-    top: -70px;
+    margin-top: -90px;
     z-index: 1;
     padding: 0px 15px;
 }
@@ -218,7 +227,7 @@ button.button:hover:before {
     color: #777777;
 }
 
-@media screen and  (max-width:1400px){
+@media screen and  (max-width:1600px){
     .headingBg{ 
         font-size: 55px;
         line-height: 75px;
@@ -233,10 +242,25 @@ button.button:hover:before {
     .circleLogo::after{       
         left:84%; 
     }
+    .bannerBlock{
+        padding: 30px 15px;
+    }
+}
+@media screen and  (max-width:1450px){
+    .mainherocard {
+        column-gap: 20px;
+    }
+    .herocard {
+        padding: 15px;
+        column-gap: 10px;
+    }
 }
 @media screen and (max-width:1249px) {
     .circleLogo{
         display: none;
+    }
+    .bannerBlock{
+        padding: 20px 15px;
     }
 }
 @media only screen and (max-width: 1080px){
@@ -244,6 +268,7 @@ button.button:hover:before {
         font-size: 65px;
         line-height: 85px;
     }
+    
     .headingSm{     
         font-size: 24px;
         line-height: 25px;
@@ -263,8 +288,13 @@ button.button:hover:before {
     p{
         font-size: 14px;
     }
-    .mainherocard {
-        top: -80px;
+    .herocard_header {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .herocard_text {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -305,12 +335,12 @@ button.button:hover:before {
         font-size: 12px;
     }
     .button {
-        padding: 2px 4px;
+        padding: 2px 12px;
         background-color: #FA5D32;
         border: none;
     }
     .btn_text {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 30px;
     }
 }

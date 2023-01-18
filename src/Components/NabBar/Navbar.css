@@ -106,8 +106,11 @@ ul{
 .hamburger_btn_manu {
     transform: translateX(100%);
 }
- .demo_class{
+ .drawer_open{
     transform: translateX(0);
+    transition: 0.7s;
+}
+.drawer_close{
     transition: 0.7s;
 }
 .hamburger_btn_manu li{
@@ -118,14 +121,14 @@ ul{
     color: white;
     text-decoration: none;
 }
-@media screen and (min-width:1305px) and (max-width:1600px){
+@media screen and (min-width:1305px) and (max-width:1400px){
     .hamburger_btn_manu {
         width: 30%;
     }
     .navbar_number{
         display: none;
     }
-}
+   }
 @media screen and (min-width:1250px) and (max-width:1304px){
     ul{
         gap: 20px;

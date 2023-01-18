@@ -1,17 +1,13 @@
 
 .contact_section{
     position: relative;
-    z-index: 1;
-}
-.contact_section:before{
-    content: '';
     background-image: url(../../Images/contactBG.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height:100%;
-    position: absolute;
-    top: 0; 
+    display: block;
+    background-size: contain;
+    background-position: center;
 }
+
 .contact_section:after{
     content: '';
     background-color: black;
@@ -26,15 +22,12 @@
     display: flex;
     max-width: 1300px;
     margin: 0 auto;
-    /* justify-content: space-between; */
     align-items: center;
-    padding: 70px 15px;
+    padding: 120px 15px;
     gap: 90px;
     height: 100%;
 }
-.contact_details_container{
-    
-}
+
 .contact_details_heading{
     font-family: 'Poppins';
     font-style: normal;
@@ -135,8 +128,57 @@
     opacity: 0.5;
     padding: 0px 0 5px;
 }
+.css-m82pzm .MuiTextField-root {
+    margin: 14px 16px;
+}
 .contact_form_text {
     margin: 16px;
+}
+ 
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 240px !important;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+}
+.css-whebh7-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    left: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    right: 0;
+    -webkit-transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    pointer-events: none;
+}
+.css-whebh7-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 2px solid #FA5D32 !important;
+    left: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    pointer-events: none;
 }
 @media only screen and (max-width: 1080px){
     .contact_container {
@@ -191,5 +233,8 @@
     }
     .formBox {
         padding: 2px;
+    }
+    .css-m82pzm .MuiTextField-root {
+        margin: 3px 16px;
     }
 }

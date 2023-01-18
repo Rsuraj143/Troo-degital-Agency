@@ -20,11 +20,11 @@ const HeroImg = () => {
               <h1 className="headingBg" data-aos="fade-down" >
                 Grow You Online Business With Us & Make Success
               </h1>
-              <div className="mt-3">
+              <div className="btn">
                 <Link>
                   <button className="button">
                     <span className="btn_text">Explore More</span>
-                    <HiChevronRight className="rightangle_icon"/>
+                    <div><HiChevronRight className="rightangle_icon"/></div>
                   </button>
                 </Link>
               </div>

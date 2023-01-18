@@ -1,10 +1,9 @@
-
 import "./About.css";
 
-import AboutImg from "../../Images/aboutImg.png";
+import AboutImg from "../../Images/about_img.png";
 import thumbIcon from "../../Images/thumbIcon.png";
 import handsIcon from "../../Images/handsIcon.png";
-import { HiChevronRight } from 'react-icons/hi';
+import { HiChevronRight } from "react-icons/hi";
 import { Link, useLocation } from "react-router-dom";
 const AboutComponent = () => {
   const location = useLocation();
@@ -13,10 +12,8 @@ const AboutComponent = () => {
     <div className={datanew}>
       <div className="AboutImg">
         <div className="aboutContainer">
-          <div className="about_left_container" data-aos="fade-right" >
-            <h5 className="about_sub_heading">
-                Helping Businesses Since 1987
-            </h5>
+          <div className="about_left_container">
+            <h5 className="about_sub_heading">Helping Businesses Since 1987</h5>
             <h2 className="about_heading">
               We Ensure Only Quality Digital Services for our Clients
             </h2>
@@ -32,13 +29,21 @@ const AboutComponent = () => {
             <div className="about_left_devision">
               <div className="about_card">
                 <div>
-                  <img src={handsIcon} alt="handsIcon" style={{maxWidth:"100%"}} />
+                  <img
+                    src={handsIcon}
+                    alt="handsIcon"
+                    style={{ maxWidth: "100%" }}
+                  />
                 </div>
                 <h4 className="about_card_heading">Qualified Consultants</h4>
               </div>
               <div className="about_card">
                 <div>
-                  <img src={thumbIcon} alt="ThumbIcon" style={{width:"90%"}} />
+                  <img
+                    src={thumbIcon}
+                    alt="ThumbIcon"
+                    style={{ width: "90%" }}
+                  />
                 </div>
                 <h4 className="about_card_heading">Trusted Since 1987</h4>
               </div>
@@ -51,13 +56,22 @@ const AboutComponent = () => {
               <Link>
                 <button className="button">
                   <span className="btn_text">Our Services</span>
-                  <HiChevronRight className="rightangle_icon"/>
+                  <HiChevronRight className="rightangle_icon" />
                 </button>
               </Link>
             </div>
           </div>
-          <div className="about_right_container" data-aos="fade-left" >
-            <img src={AboutImg} alt="aboutimg" className="aboutImg" />
+          <div className="about_right_container">
+            <div className="about_img_cont">
+              <div className="about_img_block">
+                <img src={AboutImg} alt="aboutimg" className="aboutImg" />
+              </div>
+              <div className="experience">
+                <h2 className="experience_year">35+</h2>
+                <p className="experience_text">Year of</p>
+                <p className="experience_text">Experience</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

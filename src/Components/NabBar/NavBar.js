@@ -46,7 +46,7 @@ const NavBar = () => {
           <img src={Hamburger} alt="humburrgerLogo" onClick={handleClick} />
         )}
 
-        <div className={`hamburger_btn_manu ${click ? "demo_class" : ""}`}>
+        <div className={`hamburger_btn_manu ${click ? "drawer_open" : "drawer_close"}`}>
           <div className="drawer_container">
             <div className="drawer_btn_container">
               <Link>

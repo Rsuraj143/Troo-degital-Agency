@@ -7,7 +7,7 @@
 .serviceContainer{
     max-width:1300px;
     margin: 0 auto;
-    padding: 50px 15px;
+    padding: 100px 15px 50px 15px;
 
 }
 .service_sub_heading::before{
@@ -101,6 +101,10 @@
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
+}
+.rowgap {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: -18px;
 }
 .card:before{
     content:"";

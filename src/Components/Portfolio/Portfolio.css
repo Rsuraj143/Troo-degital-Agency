@@ -82,7 +82,7 @@
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-rows: 50px;
     grid-auto-flow: dense;
-    grid-gap: 20px;
+    grid-gap: 30px;
   }
   .large, .medium, .small {
     height: 100%;
@@ -90,15 +90,15 @@
     grid-column: auto / span 1;
   }
   .large {
-    grid-row: span 8;
+    grid-row: span 6;
     
   }
   .medium {
-    grid-row: span 7;
+    grid-row: span 5;
   }
   
   .small {
-    grid-row: span 6;
+    grid-row: span 4;
   }
   .portfolio_grid_container  .cardImg {
     width: 100%;
@@ -110,10 +110,10 @@
     background-color: black;
     display: flex;
     margin: 0 auto;
-    padding: 7px 15px;
+    padding: 15px 15px;
     width: 75%;
     position: relative;
-    top: -100px;
+    top: -120px;
     z-index: 1;
     justify-content: space-between;
   }
@@ -135,18 +135,25 @@
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 18px;
     color: #FFFFFF;
   }
+ .portfolio_card_angle_right{
+  display: flex;
+  align-items: center;
+ }
   .cardicon{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
-  .cardicon img{
     opacity: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    color: #FA5D32;
   }
-  .portfoliocard:hover .cardicon img{
+  .portfoliocard:hover .cardicon{
     opacity: 1;
     transition: 1s ease-out;
 }
@@ -179,7 +186,7 @@
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-auto-rows: 65px;
     grid-auto-flow: dense;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 .portfoliocard {
   padding: 20px 20px;
@@ -190,6 +197,10 @@
   line-height: 35px;
 }
 }
+.feedback_banner_heading {
+  font-size: 30px;
+  line-height: 40px;
+}
 @media only screen and (max-width: 495px){
   .portfolio_grid_container {
     grid-template-columns: repeat(auto-fit, minmax(347px, 1fr));
@@ -198,7 +209,7 @@
 }
 @media only screen and (max-width: 416px){
   .portfolio_grid_container {
-    grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 21px;
 }
 .heading {

@@ -1,11 +1,10 @@
 import React, { useRef } from "react";
 import "./Blogs.css";
-import rightArrow from "../../Images/arrow-narrow-right.png";
-import leftArrow from "../../Images/arrow-narrow-left.png";
 import blog_1 from "../../Images/blog_1.png";
 import blog_2 from "../../Images/blog_2.png";
 import blog_3 from "../../Images/blog_3.png";
 import blog_btn_plus from "../../Images/blog_btn_plus.png";
+import { BsArrowLeft,BsArrowRight } from 'react-icons/bs';
 
 const Blogs = () => {
   const boxRef = useRef(null);
@@ -32,11 +31,11 @@ const Blogs = () => {
             <h2 className="blog_heading">News & Blogs</h2>
           </div>
           <div className="arrowGroup">
-            <span className="arrows" onClick={btnpressprev}>
-              <img src={leftArrow} alt="arroeRight" />
+            <span className="blogarrows" onClick={btnpressprev}>
+              <BsArrowLeft/>
             </span>
-            <span className="arrows" onClick={btnpressnext}>
-              <img src={rightArrow} alt="arroeleft" />
+            <span className="blogarrows" onClick={btnpressnext}>
+              <BsArrowRight/>
             </span>
           </div>
         </div>

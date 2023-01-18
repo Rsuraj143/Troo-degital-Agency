@@ -19,7 +19,7 @@ import TeamComponent from '../Components/Team/TeamComponent'
 const Home = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <HeroImg />
       <AboutComponent/>
       <ServiceComponent/>
