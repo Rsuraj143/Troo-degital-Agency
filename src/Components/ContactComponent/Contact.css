@@ -1,240 +1,251 @@
-
-.contact_section{
-    position: relative;
-    background-image: url(../../Images/contactBG.png);
-    background-repeat: no-repeat;
-    display: block;
-    background-size: contain;
-    background-position: center;
+.contact_section {
+  position: relative;
+  background-image: url(../../Images/contactBG.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-size: contain;
+  background-position: center;
 }
 
-.contact_section:after{
-    content: '';
-    background-color: black;
-    height:100%;
-    opacity: 0.1;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    z-index: -1;
+.contact_section:after {
+  content: "";
+  background-color: black;
+  height: 100%;
+  opacity: 0.1;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
 }
-.contact_container{
-    display: flex;
-    max-width: 1300px;
-    margin: 0 auto;
-    align-items: center;
-    padding: 120px 15px;
-    gap: 90px;
-    height: 100%;
-}
-
-.contact_details_heading{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #000000;
-}
-.conact_details_sub{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: #161616;
-    
-}
-.contact_details_contant{
-    display: flex;
-    column-gap: 15px;
-}
-.contact_icons{
-    width: 50px;
-    height: 50px;
-}
-.formBox{
-    background-color: white;
-   padding: 40px 30px;
-}
-.form_inputs{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #161616;
-}
-.contact_right{
-    width: 100%;
-    box-shadow: 0px -6px 20px rgb(0 0 0 / 5%), 0px 8px 20px rgb(0 0 0 / 5%);
-}
-.select_text{
-    margin-left: 16px;
-    margin-top: 10px;
-    width: 25ch;
-}
-.select_text_option{
-    padding-top: 20px;
+.contact_container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: center;
+  padding: 120px 15px;
+  gap: 90px;
+  height: 100%;
 }
 
-.form_btn{
-    padding: 15px;
+.contact_details_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.conact_details_sub {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161616;
+}
+.contact_details_contant {
+  display: flex;
+  column-gap: 15px;
+}
+.contact_icons {
+  width: 50px;
+  height: 50px;
+}
+.formBox {
+  background-color: white;
+  padding: 40px 30px;
+}
+.form_inputs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161616;
+}
+.contact_right {
+  width: 100%;
+  box-shadow: 0px -6px 20px rgb(0 0 0 / 5%), 0px 8px 20px rgb(0 0 0 / 5%);
+}
+.select_text {
+  margin-left: 16px;
+  margin-top: 10px;
+  width: 25ch;
+}
+.select_text_option {
+  padding-top: 20px;
 }
 
-.label{
-    margin-left: 14px;
-    margin-top: 10px;
-    width: 25ch;
-    color: #000000 !important;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.form_btn {
+  padding: 15px;
 }
-.select_lebel{
-    font-family: 'Poppins' !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 19px !important;
-    line-height: 24px !important;
-    color: #161616 !important;
+
+.label {
+  margin-left: 14px;
+  margin-top: 10px;
+  width: 25ch;
+  color: #000000 !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
-.contact_text_field{
-    display: flex;
+.select_lebel {
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 19px !important;
+  line-height: 24px !important;
+  color: #161616 !important;
+}
+.contact_text_field {
+  display: flex;
 }
 .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    position: relative;
-    min-width: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    vertical-align: top;
-    font-style: italic;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #161616;
-    opacity: 0.5;
-    padding: 0px 0 5px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  font-style: italic;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #161616;
+  opacity: 0.5;
+  padding: 0px 0 5px;
 }
 .css-m82pzm .MuiTextField-root {
-    margin: 14px 16px;
+  margin: 14px 16px;
 }
 .contact_form_text {
-    margin: 16px;
+  margin: 16px;
 }
- 
+
 .css-1x51dt5-MuiInputBase-input-MuiInput-input {
-    font: inherit;
-    letter-spacing: inherit;
-    color: currentColor;
-    padding: 4px 0 5px;
-    border: 0;
-    box-sizing: content-box;
-    background: none;
-    height: 1.4375em;
-    margin: 0;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    min-width: 0;
-    width: 240px !important;
-    -webkit-animation-name: mui-auto-fill-cancel;
-    animation-name: mui-auto-fill-cancel;
-    -webkit-animation-duration: 10ms;
-    animation-duration: 10ms;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 240px !important;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
 }
 .css-whebh7-MuiInputBase-root-MuiInput-root:before {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
-    left: 0;
-    bottom: 0;
-    content: "\00a0";
-    position: absolute;
-    right: 0;
-    -webkit-transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    pointer-events: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  left: 0;
+  bottom: 0;
+  content: "\00a0";
+  position: absolute;
+  right: 0;
+  -webkit-transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  pointer-events: none;
 }
 .css-whebh7-MuiInputBase-root-MuiInput-root:after {
-    border-bottom: 2px solid #FA5D32 !important;
-    left: 0;
-    bottom: 0;
-    content: "";
-    position: absolute;
-    right: 0;
-    -webkit-transform: scaleX(0);
-    -moz-transform: scaleX(0);
-    -ms-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
-    pointer-events: none;
+  border-bottom: 2px solid #fa5d32 !important;
+  left: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  right: 0;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  pointer-events: none;
 }
-@media only screen and (max-width: 1080px){
-    .contact_container {
-        display: block;
-    }
-    .contact_left{
-        margin-bottom: 50px;
-    }
-    .formBox {
-        background-color: white;
-        padding: 50px;
-    }
+@media only screen and (max-width: 1080px) {
+  .contact_container {
+    display: block;
+  }
+  .contact_left {
+    margin-bottom: 50px;
+  }
+  .formBox {
+    background-color: white;
+    padding: 50px;
+  }
 }
 .contact_section:before {
-    display: none;
+  display: none;
 }
-@media only screen and (max-width: 767px){
-    .formBox {
-        background-color: white;
-        padding: 10px;
-    }
-    .contact_text_field{
-        display: unset;
-    }
+@media only screen and (max-width: 767px) {
+  .formBox {
+    background-color: white;
+    padding: 10px;
+  }
+  .contact_text_field {
+    display: unset;
+  }
+  .contact_container {
+    padding: 30px 20px;
 }
-@media only screen and (max-width: 375px){
-    .contact_container {
-        padding: 10px 10px;
-    }
-    .contact_section:before {
-        display: none;
-    }
-    .compare_sub_heading {
-        font-size: 14px;
-        line-height: 30px;
-    }
-    .comnpare_heading {
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .compare_para {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .contact_details_heading {
-        font-size: 18px;
-        line-height: 20px;
-    }
-    .conact_details_sub {
-        font-size: 12px;
-        line-height: 16px;
-    }
-    .formBox {
-        padding: 2px;
-    }
-    .css-m82pzm .MuiTextField-root {
-        margin: 3px 16px;
-    }
+  .contact_section {
+    background-image: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .contact_container {
+    padding: 20px 20px;
+  }
+  .contact_section {
+    background-image: none;
+  }
+  .compare_sub_heading {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .comnpare_heading {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .compare_para {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 18px;
+  }
+  .contact_details_heading {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .conact_details_sub {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .formBox {
+    padding: 2px;
+  }
+  .css-m82pzm .MuiTextField-root {
+    margin: 3px 16px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .label {
+    font-size: 14px;
+}
+
 }

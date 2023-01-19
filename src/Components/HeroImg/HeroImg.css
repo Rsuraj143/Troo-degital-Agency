@@ -71,7 +71,7 @@
     margin-top: 32px;
 }
 .button{
-    padding: 10px 15px;
+    padding: 10px 22px;
     background-color: #FA5D32;
     border: none;
     border-radius: 5px;
@@ -133,8 +133,8 @@ button.button:hover:before {
 .rightangle_icon{
     color: #161616;
     background-color: #ffff;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .headingBg{
     font-family: 'Poppins';
@@ -229,8 +229,8 @@ button.button:hover:before {
 
 @media screen and  (max-width:1600px){
     .headingBg{ 
-        font-size: 55px;
-        line-height: 75px;
+        font-size: 60px;
+        line-height: 70px;
     }
     .headingSm{     
         font-size: 20px;
@@ -265,7 +265,7 @@ button.button:hover:before {
 }
 @media only screen and (max-width: 1080px){
     .headingBg{ 
-        font-size: 65px;
+        font-size: 63px;
         line-height: 85px;
     }
     
@@ -275,7 +275,7 @@ button.button:hover:before {
     }
     .bannerBlock {
         max-width: 1300px;
-        padding: 10px 140px;
+        padding: 10px 80px;
         display: block;  
     }
     .mainherocard { 
@@ -299,7 +299,8 @@ button.button:hover:before {
 }
 @media only screen and (max-width: 767px){
     .bannerBlock {
-        padding: 15px 15px;
+        padding: 15px 20px;
+        margin: 20px auto;
     }
     .headingBg {
         font-size: 50px;

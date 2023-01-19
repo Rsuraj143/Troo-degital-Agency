@@ -134,8 +134,8 @@ a {
   .pricingcard_rightangle_icon{
     color: #161616;
     background-color: #ffff;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 .pricingCard_button{
     padding: 10px 15px;
@@ -150,7 +150,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 40px;
     color: #FFFFFF; 
 }
 .pricingcard {
@@ -225,7 +225,7 @@ a {
 }
 .pricing_banner_section_image{
     background-image: url(../../Images/pricingbanner.png);
-    width: 95%;
+    width: 96.8%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -254,7 +254,7 @@ a {
 .pricing_banner_container_image{
     max-width: 1300px;
     margin: 0 auto; 
-    padding: 160px 0;
+    padding: 152px 0;
 }
 .pricing_banner_header{
     font-family: 'Poppins';
@@ -425,6 +425,9 @@ a {
     }
 }
 @media only screen  and (min-width: 541px) and (max-width: 767px){
+    .pricing_banner_container {
+        padding: 40px 13px 170px 13px;
+    }
     .pricing_card_body {
         display: flex;
         justify-content: center;
@@ -450,6 +453,17 @@ a {
         font-size: 10px;
         line-height: 30px;
     }
+    .pricingcard_rightangle_icon {
+        width: 30px;
+        height: 30px;
+    }
+    .button {
+        padding: 10px 10px;
+    }
+    .rightangle_icon {
+        width: 30px;
+        height: 30px;
+    }
     .pricing_heading {
         font-size: 30px;
         line-height: 40px;
@@ -468,10 +482,13 @@ a {
         line-height: 10px;
        margin-bottom: 10;
     }
+    .pricing_card:before{
+        background-image: none;
+    }
 }
 @media only screen and (max-width: 540px){
     .pricing_banner_container {
-        padding: 5px 0 120px 0;
+        padding: 20px 0 120px 0;
     }
     .pricing_banner_container_image{
         padding: 10px 0;
@@ -489,7 +506,7 @@ a {
         line-height: 30px;
     }
     .pricing_card_contain{
-        padding: 10px 0;
+        padding: 10px 8px;
     }
     .pricing_card_title {
         font-size: 16px;
@@ -543,4 +560,70 @@ a {
         width: 25px;
         height: 25px;
       }
+}
+@media only screen and (max-width: 375px){
+    .pricing_banner_container {
+        padding: 30px 0 140px 0;
+    }
+    .pricing_sub_heading::before {
+        width: 25px;
+        height: 25px
+    }
+    .pricing_sub_heading {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .pricing_heading {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .pricing_banner_header {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .pricing_banner_para {
+        padding: 13px 5px;
+        font-size: 14px;
+        line-height: 10px;
+        margin-bottom: 5px;
+    }
+    .rightangle_icon {
+        width: 25px;
+        height: 25px;
+    }
+    .button {
+        padding: 2px 6px;
+        min-height: 30px;
+        min-width: 120px;
+    }
+    .btn_text {
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .pricingcard_rightangle_icon {
+        width: 20px;
+        height: 20px;
+    }
+    .pricingcard_btn_text {
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .checkmark {
+        font-size: 19px;
+        margin: 0 0px;
+    }
+    .pricing_card_texts {
+        font-size: 8px;
+        line-height: 17px;
+        padding: 1px;
+    }
+    .pricing_banner_header {
+        font-size: 15px;
+        line-height: 12px;
+    }
+    .pricing_banner_para {
+        font-size: 11px;
+    }
 }

@@ -13,7 +13,7 @@ const Footer = () => {
   let twitterurl = "https://twitter.com/"
   let linkedinurl="https://in.linkedin.com/"
   let instagramurl="https://www.instagram.com/"
-  let trootheme = "https://torothemes.com/"
+  let trootheme = "https://troothemes.com/"
 
   return (
     <div className="footer">
@@ -21,10 +21,9 @@ const Footer = () => {
         <div className="footer_nav">
           <div>
             <Link to="/">
-              <img src={Logo} alt="img" />
+              <img src={Logo} alt="img" className="logoImg" />
             </Link>
           </div>
-
           <ul className="navmanu_footer">
             <li>
               <Link to="/about">About Us</Link>

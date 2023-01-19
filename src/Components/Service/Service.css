@@ -74,7 +74,7 @@
 }
 
 .card {
-    --bs-card-spacer-y: 2rem;
+    --bs-card-spacer-y: 3.5rem;
     --bs-card-spacer-x: 2rem;
     --bs-card-title-spacer-y: 1rem;
     --bs-card-border-width: 0px;
@@ -178,6 +178,11 @@
     line-height: 26px;
     text-align: center;
     color: #777777;
+    padding: 20px 7px 5px 7px;
+}
+.service_icon {
+    width: 26%;
+    height: 85px;
 }
 .serviceCircle{
     text-align: center;
@@ -196,12 +201,19 @@
     text-align: center;
     padding: 20px 0;
 }
+@media only screen and (max-width: 1200px){
+    .service_icon {
+        width: 26%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
 
 @media only screen and (max-width: 1080px){
     .servicecard_title {
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
+   
     .card_paragraph {
         margin-top: 15px;
         font-size: 15px;
@@ -211,14 +223,45 @@
         padding: 5px 0;
     } 
 }
+@media only screen and (max-width: 767px){
+    .serviceContainer {
+        padding: 40px 15px 20px 15px;
+    }
+}
 @media only screen and (max-width: 375px){
-    .service_heading {
-        font-size: 24px;
+    .service_sub_heading {
+        font-size: 14px;
         line-height: 30px;
     }
     .serviceContainer {
-        padding: 10px 10px;
+        padding: 20px 10px;
+    }
+    .card {
+        --bs-card-spacer-y: 1rem;
+        --bs-card-spacer-x: .5rem;
+    }
+    .card_paragraph {
+        padding: 8px 7px 5px 7px;
     }
 }
 
-
+@media only screen and (max-width: 320px){
+    .service_heading {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .servicecard_title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .card_paragraph {
+        padding: 0 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .service_heading {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

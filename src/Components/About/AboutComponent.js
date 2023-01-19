@@ -32,7 +32,7 @@ const AboutComponent = () => {
                   <img
                     src={handsIcon}
                     alt="handsIcon"
-                    style={{ maxWidth: "100%" }}
+                    className="about_icon"
                   />
                 </div>
                 <h4 className="about_card_heading">Qualified Consultants</h4>
@@ -42,7 +42,7 @@ const AboutComponent = () => {
                   <img
                     src={thumbIcon}
                     alt="ThumbIcon"
-                    style={{ width: "90%" }}
+                    className="about_icon"
                   />
                 </div>
                 <h4 className="about_card_heading">Trusted Since 1987</h4>

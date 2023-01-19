@@ -202,3 +202,14 @@ ul{
         display: block;
     }
 }
+@media screen and (max-width:370px) {
+    .logoImg {
+        width: 80%;
+    }
+    .header {
+        height: 50px
+    }
+    .hamburger_btn_manu {
+        top: 50px;
+    }
+}

@@ -116,7 +116,11 @@
 }
 .accordion-button:focus {
     box-shadow: unset;
-   
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    gap: 15px;
 }
 .accordion-item:last-of-type {
     border-bottom-right-radius:none;
@@ -200,12 +204,12 @@
         display: none;
     }
     .compare_container {
-        padding: 50px 15px 30px 15px;
+        padding: 50px 20px 30px 20px;
     }
 }
 @media only screen and (max-width: 375px){
     .compare_container {
-        padding: 10px 10px;
+        padding: 20px 20px;
     }
     .container_right {
         padding: 25px 0 0 0;
@@ -225,5 +229,10 @@
     .accordion-body {
         font-size: 13px;
         line-height: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .compare_container {
+        padding: 20px 20px;
     }
 }

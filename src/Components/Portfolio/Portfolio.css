@@ -34,7 +34,7 @@
     margin: 0 auto;
     column-gap: 30px;
     position: relative;
-    top: -60px;
+    top: -80px;
     z-index: 1;
     padding: 20px 15px;
 }
@@ -180,6 +180,17 @@
   .small {
     grid-row: span 9;
   }
+  .portfolio_banner_container {
+    padding: 30px 20px 80px 20px;
+}
+.portfolio_grid_container .cardImg {
+  width: 100%;
+
+  object-fit: cover;
+}
+.portfolio_container {
+  padding: 20px 20px;
+}
   .portfolio_grid_container {
     width: 100%;
     display: grid;
@@ -197,10 +208,7 @@
   line-height: 35px;
 }
 }
-.feedback_banner_heading {
-  font-size: 30px;
-  line-height: 40px;
-}
+
 @media only screen and (max-width: 495px){
   .portfolio_grid_container {
     grid-template-columns: repeat(auto-fit, minmax(347px, 1fr));
@@ -228,5 +236,58 @@
   font-size: 25px;
   line-height: 26px;
   padding: 0; 
+}
+.medium {
+  grid-row: span 7;
+}
+.small {
+  grid-row: span 6;
+}
+.large {
+  grid-row: span 8;
+}
+.portfolio_container {
+  top: -5px;
+}
+.portfolio_banner:before {
+  height: 100%; 
+}
+.portfolio_banner::after {
+  height: 100%; 
+}
+.portfolio_banner_container {
+  padding: 30px 20px 21px 20px;
+}
+}
+@media only screen and (max-width: 320px){
+  .banner_sub_heading {
+    font-size: 12px;
+    line-height: 45px;
+}
+.banner_heading {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 0;
+}
+.medium {
+  grid-row: span 7;
+}
+.small {
+  grid-row: span 6;
+}
+.large {
+  grid-row: span 8;
+}
+.portfolio_container {
+  top: -5px;
+}
+.portfolio_banner:before {
+  height: 100%; 
+}
+.portfolio_banner::after {
+  height: 100%; 
+}
+.portfolio_banner_container {
+  padding: 30px 20px 21px 20px;
 }
 }

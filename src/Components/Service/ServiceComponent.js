@@ -33,7 +33,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={soundIcon} alt="Sound Icon" height={80} />
+                    <img src={soundIcon} alt="Sound Icon" className="service_icon" />
                   </div>
                 </div>
                 <div className="serviceCircle">
@@ -51,7 +51,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={tagicon} alt="Tage Icon" height={80} />
+                    <img src={tagicon} alt="Tage Icon" className="service_icon" />
                   </div>
                 </div>
                 <div className="serviceCircle">
@@ -69,7 +69,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={SEOicon} alt="SEO Icon" height={80} />
+                    <img src={SEOicon} alt="SEO Icon" className="service_icon" />
                   </div>
                 </div>
                 <div className="serviceCircle">
@@ -87,7 +87,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={cloudIcon} alt="Cloud Icon" height={80} />
+                    <img src={cloudIcon} alt="Cloud Icon" className="service_icon" />
                   </div>
                 </div>
                 <div className="serviceCircle">
@@ -105,7 +105,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={paperPen} alt="PaperPan Icon" height={80} />
+                    <img src={paperPen} alt="PaperPan Icon"  className="service_icon"/>
                   </div>
                 </div>
                 <div className="serviceCircle">
@@ -123,7 +123,7 @@ const ServiceComponent = () => {
                     available, but the majority have suffered.
                   </p>
                   <div className="service_icon_img">
-                    <img src={graphIcon} alt="Graph Icon" height={80} />
+                    <img src={graphIcon} alt="Graph Icon"  className="service_icon"/>
                   </div>
                 </div>
                 <div className="serviceCircle">
