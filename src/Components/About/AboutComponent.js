@@ -26,7 +26,7 @@ const AboutComponent = () => {
               typesetting industry. Lorem Ipsum has been the industry's standard
               dummy text ever since the 1500 book standard dummy text.
             </p>
-            <div className="about_left_devision">
+            <div className="about_left_devision" >
               <div className="about_card">
                 <div>
                   <img

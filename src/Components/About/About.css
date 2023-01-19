@@ -4,7 +4,7 @@
 .AboutImg{
     background-image: url(../../Images/AboutBG.png);
     width: 100%;
-
+    
     background-position: center;
 }
 .aboutContainer{
@@ -103,7 +103,7 @@
 }
 .about_right_container{
     width: 50%;
-    position: relative;
+    position: relative
 }
 .about_img_block{
     display: flex;
@@ -117,6 +117,7 @@
     align-items: end;
     justify-content: end;
     position: relative;
+    
 }
 .experience{
     border: 5px solid #FA5D32;

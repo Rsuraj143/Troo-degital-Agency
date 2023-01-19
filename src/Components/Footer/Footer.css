@@ -25,8 +25,9 @@
 .navmanu_footer{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 47px;
     margin-bottom: 0;
+    align-items: center;
 }
 .navmanu_footer li a{
     font-family: 'Poppins';
