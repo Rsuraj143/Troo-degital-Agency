@@ -225,9 +225,13 @@
   .client_carosael_card {
     padding: 11px 11px;
   }
-  .person_name {
-    font-size: 16px;
-    line-height: 24px;
+  .client_name{
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .client_desig {
+    font-size: 10px;
+    line-height: 10px;
   }
   .fedback_banner_container {
     padding: 11px 20px 45px 20px;
@@ -253,13 +257,13 @@
 }
 
 @media only screen and (max-width: 375px){
-  .person_name {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .person_desig {
+  .client_name{
     font-size: 12px;
-    line-height: 3px;
+    line-height: 15px;
+  }
+  .client_desig {
+    font-size: 10px;
+    line-height: 10px;
   }
   .client_carousael_body {
     font-size: 10px;
@@ -283,10 +287,6 @@
 .client_name{
   font-size: 12px;
   line-height: 15px;
-}
-.person_desig {
-  font-size: 10px;
-  line-height: 10px;
 }
 .client_desig {
   font-size: 10px;

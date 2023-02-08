@@ -225,7 +225,11 @@
 }
 @media only screen and (max-width: 767px){
     .serviceContainer {
-        padding: 40px 15px 20px 15px;
+        padding: 40px 20px 20px 20px;
+    }
+    .row > * {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 @media only screen and (max-width: 375px){
@@ -234,7 +238,7 @@
         line-height: 30px;
     }
     .serviceContainer {
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     .card {
         --bs-card-spacer-y: 1rem;

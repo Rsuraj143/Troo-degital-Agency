@@ -426,7 +426,7 @@ a {
 }
 @media only screen  and (min-width: 541px) and (max-width: 767px){
     .pricing_banner_container {
-        padding: 40px 13px 170px 13px;
+        padding: 40px 20px 170px 20px;
     }
     .pricing_card_body {
         display: flex;
@@ -488,7 +488,7 @@ a {
 }
 @media only screen and (max-width: 540px){
     .pricing_banner_container {
-        padding: 20px 0 120px 0;
+        padding: 20px 20px 120px 20px;
     }
     .pricing_banner_container_image{
         padding: 10px 0;
@@ -498,15 +498,15 @@ a {
         justify-content: center;
     }
     .pricing_sub_heading {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 40px;
     }
     .pricing_heading {
         font-size: 25px;
         line-height: 30px;
     }
     .pricing_card_contain{
-        padding: 10px 8px;
+        padding: 0px 0px;
     }
     .pricing_card_title {
         font-size: 16px;
@@ -563,7 +563,7 @@ a {
 }
 @media only screen and (max-width: 375px){
     .pricing_banner_container {
-        padding: 30px 0 140px 0;
+        padding: 30px 20px 140px 20px;
     }
     .pricing_sub_heading::before {
         width: 25px;
